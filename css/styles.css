@@ -9,7 +9,9 @@
     --logo-color-text: #000000; 
     --logo-border: #ECECEC;
     --project-card-border:  #EEEEEE;
-    --bg-btn: #F5F4FA;
+    --bg-btn: #F5F4FA; 
+    --bg-team:  #F5F4FA; 
+
 }
 
 html {
@@ -178,16 +180,15 @@ body{
 }
 .big-header{  
     display: block;     
-    margin-bottom: 30px;    
-    margin-left: auto;
-    margin-right: auto;  
-    width: 696px;
+    margin-bottom: 30px;
+    justify-content: center;        
+ 
     color: var(--accent-text-color1);
     font-weight: 900;
     font-size: 44px;    
     line-height: 1.36;
     letter-spacing: 0.06em;
-   text-align: center;
+   text-align: center; 
     text-transform: uppercase;  
     }
 .button-accent{
@@ -262,7 +263,7 @@ body{
     margin-right: 30px;    
 }
 .team{ 
-    background-color: var(--accent-text-color1);
+    background-color: var(--bg-team);
 }
 .list-team-item{
    
