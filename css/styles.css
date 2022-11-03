@@ -297,32 +297,31 @@ body{
     list-style-type: none;
 }
 .project-filter{    
-    display: flex;
+    display: flex; 
+    justify-content: center;  
 
-    margin-left: 297px; 
-    margin-right: 297px;   
-    margin-bottom: 34px;
+     margin-bottom: 34px; 
 
    text-decoration: none;
 }
 .project-types{
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
+    gap: 30px 30px; 
 }
 .card-description{   
-     /* border-bottom: 1px solid var(--project-card-border); */
+     padding: 24px 20px;   
 }
 .project-types-li{  
-    margin-bottom: 30px;
-    margin-right: 30px; 
+    /* margin-bottom: 30px; */
+    /* margin-right: 30px;  */
+    max-width: 370px;
 
     border: 1px solid var(--project-card-border);
  }
- .container.header{        
-      /* border-bottom: 1px solid var(--logo-border);  */         
-   } 
- .project-types-li:nth-child(3n){ 
-    margin-right: -30px;  
+   
+.project-types-li:nth-child(3n){ 
+   /*  margin-right: -30px;   */
 } 
 .project-link{
     display: block; 
@@ -332,9 +331,8 @@ body{
     color:  var(--primary-text-color);     
 }
 
-
 .project-types-li:nth-last-child(-n+3){
-    margin-bottom: 0;        
+   /*  margin-bottom: 0;    */     
   }
 
 .button{ 
@@ -349,7 +347,9 @@ body{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.625;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em; 
+    justify-content: center;
+          
 }
 /* button.spec{  */
 /*     width: 120px;  */       
@@ -365,17 +365,13 @@ body{
     line-height: 2;
     letter-spacing: 0.06em;    
 }
-
-.project-link-img{
-    margin-bottom: 20px;
-}
 .project-name{
     margin-bottom: 4px;
 }
 
 .project-type{ 
-    margin: 0;
-    margin-bottom: 20px;
+   /*  margin: 0; */
+   /*  margin-bottom: 20px; */
 
     font-size: 16px;
     font-weight: 400;
